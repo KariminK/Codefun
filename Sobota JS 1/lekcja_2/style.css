@@ -104,3 +104,42 @@ body {
   font-size: 18px;
   line-height: 26px;
 }
+
+/* Dla linku:
+- Zmień kolor tekstu na zielony
+- Po najechaniu zmień kolor tekstu na fioletowy
+- Zmień wielkość czcionki na 18px
+*/
+
+a {
+  color: green;
+  font-size: 18px;
+}
+
+a:hover {
+  color: purple;
+}
+
+/* Dla listy o id skladnikiLista:
+  - Zmień typ listy na none
+  - Ustaw kolor tła na #f5f5f5
+  - Ustaw ramkę na 1px solid #a7a7a7
+  - Ustaw margines wewnętrzny na 8px
+*/
+#skladnikiLista {
+  list-style-type: none;
+  background-color: #f5f5f5;
+  border: 1px solid #a7a7a7;
+  padding: 8px;
+}
+
+/* Dla elementu listy w liście o id skladnikiLista
+  - Ustaw margines zewnętrzny górny i dolny na 6px
+  - Zmień wielkość czcionki na 18px
+*/
+
+#skladnikiLista li {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
