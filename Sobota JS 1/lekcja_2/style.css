@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Dla wszystkich elementów na stronie 
+    - wyzeruj margiesy zewnętrzne i wewnętrzne
+    - Ustaw czcionkę na "Roboto", sans-serif
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Dla nagłówka h1
+    - dodaj margines górny i dolny na 50px
+    - Wyrównaj tekst do środka
+*/
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Dla zdjęcia
+    - ustaw szerokość na 400px
+    - ustaw wyświetlanie na blokowe
+    - ustaw marginesy prawe i lewe na auto
+*/
+
+img {
+  width: 400px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Dla h2
+    - ustaw margines górny na 50px
+    - ustaw wysokość linii na 30px
+*/
+h2 {
+  margin-top: 50px;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+/* Dla p
+    - ustaw wysokość linii na 24px
+    - ustaw wielkość czcionki na 18px
+    - ustaw margines dolny na 20px
+*/
+p {
+  line-height: 24px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Dla body
+    - Ustawiamy maksymalną szerokość na 1024px
+    - marginesy prawe i lewe ustaw na auto
+*/
+body {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Dla listy o id cechyBabeczek:
+    - Zmień pozycje listy na inside
+    - Zmień typ listy na circle
+*/
+/* Dla elemetu listy w liście o id cechyBabeczek:
+    - Zmień wysokość linii na 20px
+*/
+
+#cechyBabeczek {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+#cechyBabeczek li {
+  line-height: 20px;
+}
+
+/*Dla listy o id przygotowanieLista zrób:
+  - ramkę 1px solid black
+  - margin bottom na 12px
+  - typ listy na none
+  - padding na 8px
+*/
+/* Dla elementu listy w liście o id przygotowanieLista zrób:
+  - wielkość czcionki na 18px
+  - line-height na 22px
+*/
+
+#przygotowanieLista {
+  border: 1px solid black;
+  margin-bottom: 12px;
+  list-style-type: none;
+  padding: 8px;
+}
+
+#przygotowanieLista li {
+  font-size: 18px;
+  line-height: 26px;
+}
