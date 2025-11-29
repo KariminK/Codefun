@@ -1,0 +1,17 @@
+h1 {
+  color: slateblue;
+  background-color: burlywood;
+}
+p {
+  font-size: 20px;
+  margin: 40px;
+  border: 2px dashed red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+a {
+  text-decoration: overline;
+}

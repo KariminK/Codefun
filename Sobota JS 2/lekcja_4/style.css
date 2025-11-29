@@ -1,0 +1,45 @@
+/* Dla p:
+    - zmień kolor czcionki na zielony
+    - zmień kolor tła na żółty
+    - zmień wielkość czcionki na 24px
+*/
+p {
+  color: green;
+  background-color: yellow;
+  font-size: 24px;
+
+  /* Zmiana wyglądu tekstu na duże/małe litery */
+  text-transform: uppercase;
+
+  /* Grubość czcionki */
+  font-weight: bold;
+
+  /* Dekoracja tekstu */
+  text-decoration: underline;
+
+  /* Wyrówynywanie tekstu */
+  text-align: center;
+
+  /* Wysokość linijki */
+  line-height: 5;
+
+  /* Odstęp między słowami i odstęp między literami */
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+h1 {
+  color: red;
+  background-color: aquamarine;
+  text-decoration: underline;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+ul {
+  /* zmiana typu listy */
+  list-style-type: circle;
+}
+ol {
+  list-style-type: decimal;
+}

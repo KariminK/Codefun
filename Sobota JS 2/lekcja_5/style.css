@@ -1,0 +1,45 @@
+p {
+  border-style: dashed dotted groove double;
+  border-width: 10px 4px;
+  border-color: blueviolet;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border: 5px dashed green;
+  background-color: rgb(255, 255, 40);
+}
+
+/* Dla h1 */
+/* Zróbcie podwójną ramkę o 
+- szerokości 5px, 
+- koloru różowego,
+- zaokrągloną o 10px */
+
+img {
+  max-width: 1000px;
+  width: 100%;
+  height: 100px;
+  border: 5px dotted red;
+  opacity: 0.5;
+  margin-left: 55px;
+}
+
+/* Dla h2: */
+/* - kolor tła rgb(200, 50, 50) */
+/* - kolor czcionki na biały */
+/* - dodaj ramkę stałą o szerokości 1 px koloru czarnego */
+/* - niech wszystkie rogi oprócz lewego dolnego będą zaokrąglone o 15px */
+h2 {
+  background-color: rgb(200, 50, 50);
+  color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+}
+
+/* Dla h3: */
+/* - kolor czcionki na rgb(100, 0, 0) */
+/* - wszystkie litery duże */
+/* - tekst podkreślony */
+/* - wysokośc linii ustawiamy na 2 */
+/* - rozmiar czcionki na 24px */
+/* - kropkowaną ramkę koloru fioletowego o szerokości 1px */

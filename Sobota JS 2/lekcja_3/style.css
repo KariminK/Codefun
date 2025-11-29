@@ -1,0 +1,34 @@
+h1 {
+  color: red;
+}
+
+ul li {
+  background-color: green;
+}
+
+.przycisk {
+  font-size: 18px;
+}
+
+#pierwszyElement {
+  font-weight: bold;
+}
+
+/* Dla wszystkich przycisków (znaczników button): 
+    - kolor tła na salmon
+    - kolor czcionki na biały
+    - margines na 16px
+    - czarną przerywaną (dashed) ramkę o grubości 2px - 
+    **"border grubosc styl kolor"**
+    - wielkość czcionki na 20px
+    - padding na 20px
+*/
+
+h3 {
+  padding: 100px;
+  background-color: aqua;
+}
+h4 {
+  margin: 100px;
+  background-color: lightgreen;
+}
