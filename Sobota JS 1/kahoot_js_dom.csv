@@ -1,0 +1,40 @@
+What does DOM mean?,Document Object Model,Dynamic Object Mode,Document Original Module,Display Object Manager,1
+Co robi getElementById("box")?,Wyszukuje element o danym ID,Usuwa element,Zmienia kolor elementu,Tworzy nowy element,1
+Co robi querySelector()?,Zwraca pierwszy pasujący element,Zwraca wszystkie elementy,Usuwa element,Tworzy klasę,1
+Co zwraca querySelectorAll(".item")?,Listę wszystkich pasujących elementów,Jeden element,Tablicę liczb,Tylko pierwsze dziecko,1
+Jak nazywamy element wewnątrz innego elementu?,Child,Parent,Sibling,Friend,1
+Jak nazywamy element zawierający inne elementy?,Parent,Child,Sibling,Root,1
+Która właściwość zwraca pierwsze dziecko elementu?,firstElementChild,nextElementSibling,childElement,previousElementSibling,1
+Która właściwość zwraca ostatnie dziecko elementu?,lastElementChild,firstElementChild,nextElementSibling,parentNode,1
+Jak nazywa się element znajdujący się bezpośrednio za innym?,nextElementSibling,Parent,Child,lastElementChild,1
+Jak nazywa się element przed innym?,previousElementSibling,firstElementChild,Parent,Child,1
+Co robi element.style.color = "red"?,Zmienia kolor czcionki na czerwony,Zmienia tekst,Tworzy zmienną,Usuwa element,1
+Jak ustawić tło na zielone?,element.style.backgroundColor = "green",element.background = green,element.bg = "green",element.css.background = green,1
+Gdzie znajduje się struktura strony w JS?,W obiekcie document,W CSS,W funkcji,W zmiennej,1
+Ile elementów zwraca getElementById?,Zero lub jeden,Zawsze wiele,Zawsze dwa,Nigdy nie zwraca,1
+Jak pobrać rodzica elementu?,element.parentNode,element.childNode,element.topNode,element.rootNode,1
+Która właściwość zmienia tekst elementu?,innerText,textColor,textChange,innerStyle,1
+Co zwróci querySelector("#title")?,Element o ID title,Wszystkie elementy,Nic,Tablicę liczb,1
+Jak wyszukać element po klasie?,querySelector(".klasa"),getElementById(),getElementsByTagName(),style.select(),1
+Co zwraca querySelectorAll?,NodeList,Tablicę,Liczbę,Jeden element,1
+Co oznaczają []?,Tablicę,Obiekt,Funkcję,Pętlę,1
+Jak nazywa się zmienna z wieloma wartościami?,Tablica,Funkcja,Liczba,Pętla,1
+Jak przejść po tablicy?,Za pomocą for,Za pomocą if,Za pomocą color,Za pomocą style,1
+Do czego służy if?,Do sprawdzania warunku,Do powtarzania,Do stylowania,Do tworzenia elementów,1
+Co oznacza ===?,Równość i taki sam typ,Losowy wybór,Większe od,Mniejsze od,1
+Która pętla wykonuje kod określoną liczbę razy?,for,if,style,color,1
+Co ma unikalne ID?,Tylko jeden element strony,Każda klasa,Każdy tag,Wszystkie elementy,1
+Czy querySelector może wyszukiwać po ID i klasie?,Tak,Nie,Tylko po ID,Tylko po klasie,1
+Jak zmienić rozmiar czcionki?,element.style.fontSize = "20px",element.font = 20,element.css.size = 20,element.style.text = "big",1
+Co robi style.backgroundColor?,Ustawia tło,Zmienia tekst,Usuwa styl,Dodaje element,1
+Jak pobrać wszystkie <li>?,querySelectorAll("li"),getLI(),getElementById("li"),querySelector("li"),1
+Do czego służy console.log()?,Do wypisywania wartości w konsoli,Do zmiany koloru,Do tworzenia pętli,Do liczenia,1
+Co to jest child?,Dziecko elementu,Rodzic elementu,Element obok,Pierwszy element,1
+Co to jest parent?,Rodzic elementu,Dziecko elementu,Pętla,Ostatni element,1
+Co zwraca previousElementSibling?,Poprzedni element,Kolejny element,Pierwszy element,Dziecko,1
+Co zwraca querySelectorAll?,NodeList,Funkcję,CSS,Liczbę,1
+Jak sprawdzić czy liczba jest większa od 10?,if (x > 10),if (x = 10),if (x < 10),if (10 > x),1
+Co robi let x = 5?,Tworzy zmienną o wartości 5,Usuwa zmienną,Tworzy tablicę,Wyświetla tekst,1
+Co to jest pętla?,Kod który powtarza się wiele razy,Kod który wykonuje się raz,Styl CSS,Funkcja losująca,1
+Co oznacza indeks 0 w tablicy?,Pierwszą wartość,Ostatnią wartość,Losową wartość,Brak wartości,1
+Czy można zmieniać style w JS?,Tak,Nie,Tylko w HTML,Tylko w CSS,1
