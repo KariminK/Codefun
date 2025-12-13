@@ -1,0 +1,47 @@
+/* Dla divów:
+    - ustaw wysokość na 100px
+    - ustaw szerokość na 100px
+    - ustaw margines zewnętrzny na 15px (margin)
+    - ustaw kolor tła na dowolny
+*/
+/* Dla linków (a) po najechaniu myszka (:hover): 
+    - ustaw kolor tekstu na dowolny
+*/
+div {
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  background-color: aqua;
+  position: relative;
+}
+a:hover {
+  color: red;
+}
+a {
+  transition: color 1s; /* wydłużenie czasu zmiany wartości */
+}
+
+@keyframes bieg_w_prawo {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 1000px;
+  }
+}
+@keyframes rozszerz {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 1000px;
+  }
+}
+
+#kwadrat1 {
+  animation-name: bieg_w_prawo; /* nazwa animacji */
+  animation-duration: 3s; /* czas trwania animacji */
+  animation-iteration-count: infinite; /* liczba iteracji (ile razy sie wykona) */
+  animation-timing-function: linear; /* sposób wykonania */
+  animation-direction: alternate; /* kierunek animacji */
+}
