@@ -23,7 +23,7 @@ Na ten moment iteratory zwracane przez te funkcje będziemy po prostu konwertowa
 
 ## filter()
 
-Metoda filter() zwraca nowy iterator, który nie zawiera wybranych przez nas elementów.
+Funkcja filter() zwraca nowy iterator, który zawiera wybrane przez nas elementy.
 
 Konkretniej, w pierwszym argumencie podajemy funkcję, która przyjmuje w argumencie jeden element z naszej listy, a zwraca boolean (najczęściej warunek, którym sprawdzamy, czy element spełnia nasze kryteria). W drugim argumencie przyjmuje ona kolekcję.
 
@@ -84,4 +84,58 @@ nowaKolekcja = list(filter(lambda element: warunek, kolekcja))
 - **`nowaKolekcja`** to jest kolekcja zwracana przez funkcję filter
 - **`element`** to jest pojedynczy element kolekcji
 - **`warunek`** to jest warunek, kiedy będziemy chcieli wrzucić element do kolekcji
+- **`kolekcja`** to jest kolekcja, którą chcemy przefiltrować
+
+## map()
+
+Funkcja map() na pierwszy rzut oka działa w bardzo podobny sposób do filter(). Także przyjmuje w pierwszym argumencie
+funkcję, a w drugim kolekcję, na której chcemy działać. I tak samo jak filter() zwraca nowy iterator.
+
+Istotna różnica jest taka, że filter() wybierał elementy z kolekcji, a map() wykona na nich daną operację i wrzuci do nowej kolekcji elementy zwrócone przez funkcję.
+
+Działanie tej funkcji wygląda następująco:
+
+1. Wywołuje ona funkcję podaną przez nas na każdym elemencie kolekcji.
+2. Dodaje do kolekcji element zwrócony przez naszą funkcję
+3. Zwraca nową kolekcję z elementami zwróconymi przez naszą funkcję
+
+Znowu, zobaczmy to na przykładzie:
+
+```python
+liczby = [2, 3, 4, 5, 6, 7, 8]
+
+podwojone = list(map(lambda liczba: liczba * 2, liczby));
+
+print(podwojone); # [4, 6, 8, 10, 12, 14, 16]
+```
+
+Utworzyłem na start kolekcję liczb. Później tworzę nową kolekcję o nazwie podwojone do której przypisuję
+listę. W tej liście znajdować się będą elementy zwrócone przez map(). W map() podałem funkcję, która zwraca liczbę pomnożoną przez 2 (pamiętamy działanie funkcji lambda), a także kolekcję liczby, na której będę działał.
+
+### map() vs for
+
+Ten sam wynik możemy osiągnąć za pomocą pętli for
+
+```python
+liczby = [2, 3, 4, 5, 6, 7, 8]
+
+podwojone = []
+
+for liczba in liczby:
+    podwojone.append(liczba * 2)
+
+print(podwojone)
+```
+
+Ten program zwróci nam dokładnie to samo. Jednak zapis z map() jest krótszy i bardziej czytelny.
+
+### Prosty zapis
+
+```python
+nowaKolekcja = list(map(lambda element: elementPoZmianie, kolekcja))
+```
+
+- **`nowaKolekcja`** to jest kolekcja zwracana przez funkcję map()
+- **`element`** to jest pojedynczy element kolekcji
+- **`elementPoZmianie`** to jest element, który będzie wrzucony do nowej kolekcji
 - **`kolekcja`** to jest kolekcja, którą chcemy przefiltrować
