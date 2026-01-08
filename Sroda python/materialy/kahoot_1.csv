@@ -1,0 +1,36 @@
+Co robi metoda append()?;Usuwa element z listy;Dodaje element na początek;Dodaje element na koniec;Sortuje listę;20;3
+Co robi pop() bez argumentu?;Usuwa pierwszy element;Usuwa ostatni element;Czyści listę;Dodaje element;20;2
+Co robi insert(0, x)?;Dodaje x na koniec;Dodaje x na początek listy;Usuwa element;Zmienia elementy;20;2
+Co zrobi remove(5)?;Usunie element o indeksie 5;Usunie pierwszą wartość 5;Usunie ostatni element;Nic;20;2
+Co to jest iterator?;Funkcja;Coś po czym można przejść pętlą for;Typ zmiennej;Klasa;20;2
+Co robi filter()?;Zmienia elementy listy;Wybiera elementy spełniające warunek;Sortuje listę;Dodaje elementy;20;2
+Co musi zwracać funkcja w filter()?;Liczbę;Tekst;Listę;True lub False;20;4
+Jaki będzie wynik [1,2,3,4] x>2?;[1,2];[1,2,3,4];[3,4];[2,3];20;3
+Co robi map()?;Usuwa elementy;Zmienia każdy element listy;Sprawdza warunki;Sortuje;20;2
+Jaki będzie wynik map x+1 dla [2,4,6]?;[2,4,6];[3,5,7];[1,3,5];[2,5,7];20;2
+Co zwracają map() i filter()?;Listę;Iterator;Liczbę;Tekst;20;2
+Jak zamienić wynik map() na listę?;array();[];list();tuple();20;3
+Lambda to?;Pętla;Klasa;Funkcja w jednej linijce;Typ zmiennej;20;3
+Co robi lambda x:x*2?;Filtruje listę;Podwaja każdy element;Usuwa elementy;Sortuje;20;2
+Do czego służy klasa?;Do pętli;Do tworzenia obiektów;Do plików;Do liczb;20;2
+Jak nazywa się metoda startowa klasy?;start();main();__init__();create();20;3
+Co oznacza self?;Nazwa klasy;Zmienna globalna;Aktualny obiekt;Funkcja;20;3
+Co to jest obiekt?;Klasa;Instancja klasy;Funkcja;Plik;20;2
+Co to jest atrybut?;Metoda;Zmienna obiektu;Klasa;Plik;20;2
+Jak poprawnie stworzyć obiekt?;Kot="Filemon";k=Kot("Filemon");Kot.imie("Filemon");new Kot("Filemon");20;2
+Jak wywołać metodę obiektu?;metoda();obiekt.metoda();Class.metoda();self.metoda();20;2
+Co przechowuje self.imie?;Funkcję;Imię obiektu;Klasę;Plik;20;2
+Do czego służy open()?;Zamyka plik;Otwiera plik;Usuwa plik;Zmienia nazwę;20;2
+Co oznacza tryb r?;Zapis;Dopisywanie;Odczyt;Tworzenie;20;3
+Co robi tryb w?;Czyta plik;Nadpisuje lub tworzy plik;Dopisuje;Kopiuje;20;2
+Co robi tryb a?;Czyta;Nadpisuje;Dopisuje do pliku;Usuwa;20;3
+Jak zapisać tekst do pliku?;file.save();file.write();file.read();open.write();20;2
+Jak odczytać cały plik?;file.write();file.open();file.read();file.close();20;3
+Co robi file.close()?;Usuwa plik;Zamyka plik;Zapisuje plik;Czyści plik;20;2
+Dlaczego używamy with open()?;Kod krótszy;Szybsze działanie;Plik sam się zamyka;Nie trzeba open();20;3
+Co zrobi tryb w gdy plik istnieje?;Dopisze tekst;Usunie starą zawartość;Zgłosi błąd;Nic;20;2
+Co zwraca file.read()?;Listę;Tekst;Liczbę;Boolean;20;2
+Który zapis jest najlepszy?;file=open();with open() as file;open(file);file.open();20;2
+Co to jest plik tekstowy?;Program;Plik z tekstem;Klasa;Lista;20;2
+Co może przechowywać plik?;Tylko liczby;Tylko tekst;Różne dane;Tylko klasy;20;3
+Co łączy map() i filter()?;Zwracają listę;Działają na kolekcjach;Służą do plików;Są pętlami;20;2
