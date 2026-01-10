@@ -1,0 +1,90 @@
+/* dla znacznika body: */
+/* - wyzeruj marginesy zewnętrzne i wewnętrzne (margin i padding) */
+/* - ustaw czcionkę na dowolnie wybraną (color) */
+/* - zmień kolor tła na dowolny (background-color)*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  color: darkslategrey;
+}
+
+/* dla znacznika h1: 
+    - ustaw rozmiar tekstu na 32px (font-size)
+    - ustaw wyrównanie tekstu do środka (text-align)
+    - ustaw styl czcionki na kursywę (font-style: italic)
+    - ustaw kolor tekstu na dowolny (color)
+    - ustaw tekst na wszystkie duże litery (text-transform)
+*/
+h1 {
+  font-size: 32px;
+  text-align: center;
+  font-style: italic;
+  color: chocolate;
+  text-transform: uppercase;
+}
+
+/* dla listy ol: */
+/* 
+    - ustaw styl listy na cyfry rzymskie duże (list-style-type)
+    - ustaw pozycje listy na wewnętrzną (list-style-position)
+    - ustaw margines zewnętrzny na 16px
+*/
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  margin: 16px;
+}
+
+/* dla elementu listy li: */
+/* - ustaw margines górny i margines dolny na 20px */
+/* - ustaw wielkość czcionki na 24px */
+/* - ustaw grubość czcionki na pogrubioną (font-weight: bold) */
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* dla znacznika p: */
+/* 
+ - ustaw margines wewnętrzny na 16px (padding)
+ - ustaw ramkę grubości 1px stylu solid koloru czarnego (border)
+*/
+p {
+  padding: 16px;
+  border: 1px solid black;
+}
+
+/* dla znacznika img: */
+/* 
+ - ustaw szerokość na 250px (width)
+ - ustaw wyświetlanie na blokowe (display)
+ - ustaw marignes zewnętrzny na 20px
+*/
+img {
+  width: 250px;
+  display: block;
+  margin: 20px;
+}
+
+/* dla znacznika a: */
+/* 
+ - zmień kolor tekstu na dowolny
+ - zmień dekorację tekstu na brak (text-decoration)
+ - zmień rozmiar czcionki na 30px
+*/
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* po najechaniu myszką na znacznik a (a:hover): */
+/* 
+ - zmień kolor tekstu na inny dowolny
+*/
+a:hover {
+  color: green;
+}
