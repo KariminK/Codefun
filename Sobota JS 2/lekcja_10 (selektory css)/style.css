@@ -1,0 +1,43 @@
+/* Selektor - do czego dajemy style */
+
+/* selektor * - wszystkie elementy na stronie  */
+/* najczęściej tutaj zerujemy margin, padding, 
+    a także ustawiamy czcionke */
+* {
+  /* border: 1px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* selektor znacznika - wszystkie elementy o danym znaczniku
+ h1 - wszystkie h1
+ ul - wszystkie ul
+*/
+h1 {
+  font-size: 16px;
+}
+
+/* selektor kilku znacznikow
+    - Jeśli chcemy wystylować kilka różnych elementów, to 
+    dajemy je po przecinku
+*/
+ul,
+ol {
+  list-style-position: inside;
+}
+
+/* selektor klasy - wybiera wszystkie elementy o danej klasie */
+/* wszystkie elementy o klasie elementListy */
+.elementListy {
+  color: red;
+}
+
+/* selektor id - wybiera element o podanym id */
+#waznyElement {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* selektor "element w elemencie" */
+ul li {
+  margin: 20px;
+}
