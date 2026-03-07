@@ -1,5 +1,3 @@
-# Serwer i klient TCP w Pythonie
-
 ## Co to jest serwer i klient?
 
 Żeby dwa programy mogły ze sobą rozmawiać przez internet (albo przez jeden komputer), potrzebujemy **serwera** i **klienta**.
